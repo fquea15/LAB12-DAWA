@@ -1,0 +1,53 @@
+<!-- src/app/profile/profile.component.html -->
+<div *ngIf="authenticated" class="container mt-4">
+  <div class="text-center">
+    <img src="https://cas-training.com/wp-content/uploads/2020/09/angular-todo-lo-que-necesitas-saber.png" alt="Profile Image" class="img-fluid rounded-circle" style="width: 150px; height: 150px;">
+    <h2 class="mt-3">Freddy Quea</h2>
+    <p class="text-muted">Username: fquea15</p>
+    <p class="text-muted">Email: ruben.quea@tecsup.edu.pe</p>
+  </div>
+  <hr>
+  <h3 class="mb-3">Detalles del Usuario</h3>
+  <ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Nombre:</strong> Ruben Freddy Quea Jacho
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Email:</strong> ruben.quea@tecsup.edu.pe
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Fecha de Nacimiento:</strong> 15/09/2003
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Teléfono:</strong> +51 987 654 321
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Dirección:</strong> Av. Principal 123, Arequipa, Perú
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Género:</strong> Masculino
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Estado Civil:</strong> Soltero
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Profesión:</strong> Desarrollador Full Stack
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Tecnologías:</strong> Angular, Node.js, MongoDB
+    </li>
+  </ul>
+  <h3 class="mt-4">Historial de Actividad</h3>
+  <ul class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Última conexión:</strong> 10/11/2023 15:30
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Actividad Reciente:</strong> Publicaste un comentario en Post #5
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <strong>Logros:</strong> Contribuyente Activo, Usuario Destacado
+    </li>
+  </ul>
+  <button class="btn btn-danger mt-4" (click)="logout()">Logout</button>
+</div>

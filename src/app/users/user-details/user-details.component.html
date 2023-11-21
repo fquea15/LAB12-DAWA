@@ -1,0 +1,16 @@
+<!-- user-details.component.html -->
+<div class="container mt-4">
+  <div class="card border-primary text-center">
+    <div class="card-header">
+      <h2>User Details</h2>
+    </div>
+    <div class="card-body">
+      <div *ngIf="user">
+        <p>Name: {{ user.name }}</p>
+        <p>Email: {{ user.email }}</p>
+        <p>Phone: {{ user.phone }}</p>
+      </div>
+      <button class="btn btn-outline-primary mt-3" (click)="goBack()">Back to User List</button>
+    </div>
+  </div>
+</div>

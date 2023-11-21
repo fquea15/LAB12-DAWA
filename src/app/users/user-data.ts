@@ -1,0 +1,22 @@
+export const userData = [
+  { id: 1, name: 'John Doe', email: 'john.doe@example.com', phone: '555-1234' },
+  { id: 2, name: 'Jane Smith', email: 'jane.smith@example.com', phone: '555-5678' },
+  { id: 3, name: 'Bob Johnson', email: 'bob.johnson@example.com', phone: '555-9876' },
+  { id: 4, name: 'Alice Williams', email: 'alice.williams@example.com', phone: '555-6543' },
+  { id: 5, name: 'David Brown', email: 'david.brown@example.com', phone: '555-8765' },
+  { id: 6, name: 'Emily Davis', email: 'emily.davis@example.com', phone: '555-4321' },
+  { id: 7, name: 'Michael Miller', email: 'michael.miller@example.com', phone: '555-7890' },
+  { id: 8, name: 'Olivia Wilson', email: 'olivia.wilson@example.com', phone: '555-2345' },
+  { id: 9, name: 'William Moore', email: 'william.moore@example.com', phone: '555-8901' },
+  { id: 10, name: 'Sophia Taylor', email: 'sophia.taylor@example.com', phone: '555-3456' },
+  { id: 11, name: 'Daniel Anderson', email: 'daniel.anderson@example.com', phone: '555-9012' },
+  { id: 12, name: 'Ava Martinez', email: 'ava.martinez@example.com', phone: '555-4567' },
+  { id: 13, name: 'Matthew Hernandez', email: 'matthew.hernandez@example.com', phone: '555-0123' },
+  { id: 14, name: 'Emma Rodriguez', email: 'emma.rodriguez@example.com', phone: '555-5678' },
+  { id: 15, name: 'Christopher Thompson', email: 'christopher.thompson@example.com', phone: '555-2345' },
+  { id: 16, name: 'Isabella Garcia', email: 'isabella.garcia@example.com', phone: '555-7890' },
+  { id: 17, name: 'Andrew Smith', email: 'andrew.smith@example.com', phone: '555-3456' },
+  { id: 18, name: 'Madison Davis', email: 'madison.davis@example.com', phone: '555-9012' },
+  { id: 19, name: 'Liam Wilson', email: 'liam.wilson@example.com', phone: '555-4567' },
+  { id: 20, name: 'Abigail Moore', email: 'abigail.moore@example.com', phone: '555-0123' }
+];

@@ -1,0 +1,10 @@
+/* user-details.component.css */
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  color: #007bff;
+}
